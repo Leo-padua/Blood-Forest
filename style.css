@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#music {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    box-sizing: border-box;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    width: 6.5em;
+    height: 1.6em;
+    margin: 5px;
+    padding: 3px;
+    background-color: hsl(0, 100%, 30%);
+    color: hsl(60, 100%, 45%);
+    font-family: monospace;
+    cursor: pointer;
+}
